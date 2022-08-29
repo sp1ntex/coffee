@@ -1,0 +1,62 @@
+.subscribe-hero-title{
+    font-family: 'Fraunces';
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FEFCF7;
+padding-left: 86px;
+padding-top: 134px;
+}
+.subscribe-hero-text{
+    font-family: 'Barlow';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+width: 445px;
+padding-left: 86px;
+padding-top: 32px;
+}
+.subscribe-hero{
+    margin-bottom: 164px;
+}
+.subscribe-hero-wrapper{
+    background-image: url(../img/plan-coffee.jpg);
+    border-radius: 10px;
+    width: 1280px;
+    height: 450px;
+}
+@media only screen and (max-width:768px){
+    .subscribe-hero-title{
+        font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    padding-left: 58px;
+    padding-top: 127px;
+    }
+    .subscribe-hero-text{
+        font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 445px;
+    padding-left: 58px;
+    padding-top: 24px;
+    }
+    .subscribe-hero{
+        margin-bottom: 164px;
+    }
+    .subscribe-hero-wrapper{
+        background-image: url(../img/Bitmap-5.jpg);
+        border-radius: 10px;
+        width: 689px;
+        height: 400px;
+    }
+}

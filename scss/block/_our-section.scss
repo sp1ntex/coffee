@@ -1,0 +1,98 @@
+.our-list{
+    display: flex;
+    list-style-type: none;
+   
+}
+.our-bgi{
+    background-image: url(../img/our-collection.png);
+    width: 1072px;
+    height: 72px;
+}
+.about-our-section img{
+    background-size: cover;
+}
+.collection-heading{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 72px;
+    text-align: center;
+    color: #83888F;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.our-heading{
+    font-family: 'Fraunces';
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+text-align: center;
+}
+.our-item{
+    width: 255px;
+    margin-right: 30px;
+}
+.our-text{
+    font-family: 'Barlow';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #333D4B;
+}
+.our-section{
+    margin-bottom: 200px;
+    margin-top: 130px;
+}
+@media only screen and (max-width:768px){
+    .our-list{
+        flex-direction: column;
+        list-style-type: none;
+    }
+    .collection-heading{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 150px;
+        line-height: 72px;
+        text-align: center;
+        color: #83888F;
+        background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+        -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+    }
+    .our-heading{
+        font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    text-align: left;
+    padding-bottom: 24px;
+    }
+    .our-content{
+        margin-top: 20px;
+    }
+    .our-item{
+        width: 255px;
+        display: flex;
+        margin-bottom: 48px;
+        margin-left: 30px;
+    }
+    .our-text{
+        font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+    width: 282px;
+    }
+    .our-section{
+        margin-bottom: 129px;
+        margin-top: 130px;
+    }
+}
